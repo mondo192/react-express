@@ -1,0 +1,11 @@
+{
+  "name": "react-express",
+  "packageManager": "yarn@3.0.2",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
+}
