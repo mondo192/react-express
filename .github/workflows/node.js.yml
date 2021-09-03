@@ -25,6 +25,6 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: ${{ matrix.node-version }}
-        cache: './yarn/cache'
+        cache: 'yarn'
     - run: yarn set version berry
     - run: yarn install 
